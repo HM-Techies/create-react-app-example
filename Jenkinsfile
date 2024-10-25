@@ -10,8 +10,10 @@ pipeline {
             }
             steps {
                 sh'''
-                npm ci
+                  ls -la > b.txt
+                npm install
                 npm build
+                la -la > a.txt
                 '''
             }
         }
