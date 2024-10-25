@@ -10,11 +10,7 @@ pipeline {
             }
             steps {
                 sh'''
-                git clone https://github.com/HM-Techies/create-react-app-example.git
-                  ls -la > b.txt
-                npm install
-                npm build
-                la -la > a.txt
+                ls -la
                 '''
             }
         }
