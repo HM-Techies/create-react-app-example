@@ -11,6 +11,9 @@ pipeline {
             steps {
                 sh'''
                 ls -la
+                cd create-react-app-example
+                npm i
+                npm run build
                 '''
             }
         }
