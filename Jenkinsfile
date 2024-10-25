@@ -11,7 +11,6 @@ pipeline {
             steps {
                 sh'''
                 ls -la
-                npm i
                 npm run build
                 '''
             }
